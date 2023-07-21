@@ -1,0 +1,71 @@
+/* pc */
+@media (min-width:1024px) {
+    #header .icon-menu {
+        display: none;
+    }
+}
+
+/*tablet & mobile*/
+@media (max-width:1023px) {
+    .btn {
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }   
+
+    .contact-text {
+        line-height: 2;
+    }
+
+    #footer .social-list i {
+        font-size: 26px;
+        margin: 0 8px;
+    }
+    #footer .social-list p {
+        font-size: 22px;
+    }
+    #footer .social-list p a {
+        display: inline-block;
+        padding: 12px 0;
+    }
+}
+
+/* tablet */
+@media (min-width:740px) and (max-width:1023px) {
+    #header .icon-menu {
+        display: none;
+    }
+}
+
+/* mobile */
+@media (max-width:739px) {
+    #header {
+        overflow: hidden;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    }
+    #header .icon-search {
+        display: none;
+    }
+
+    #nav > li {
+        display: block;
+    }
+    #nav > li:first-child {
+        display: inline-block;
+    }
+    #nav .subnav {
+        position: initial; /*gtri position mdinh*/
+        background-color: #333;
+        
+    }
+    #nav .subnav a{
+        color: #fff;
+        padding:4px 40px; 
+    }
+
+    .s-col-1, 
+    .s-full-width {
+        width: 100%;
+    }
+
+    
+}
